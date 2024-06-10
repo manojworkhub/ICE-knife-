@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    background-image: url(./img/eye\ .gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    margin: 10px 0px 0px 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 35px 120px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: gold;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 100PX 0PX 0PX 200px;
+
+
+}
+
+button {
+    background: linear-gradient(to bottom, rgb(49, 48, 48),
+            rgba(233, 224, 224, 0.658));
+    border: 0;
+    outline: 0;
+    font-size: 10px;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 0px 0px 200px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(49, 194, 194);
+}
+
+button:active {
+    color: greenyellow;
+}
+
+.circle1 span {
+    display: inline-block;
+    background: linear-gradient(to bottom, rgb(49, 48, 48),
+            rgba(233, 224, 224, 0.658));
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    margin: 0px 5px;
+
+}
+
+#w1 {
+    background: linear-gradient(to bottom, rgb(253, 253, 253),
+            rgba(255, 255, 255, 0.658));
+}
+
+.downline {
+    position: fixed;
+    left: 950px;
+    top: 70vh;
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+}
+
+
+
+.downline button {
+    background: linear-gradient(to bottom, rgb(49, 48, 48),
+            rgba(214, 9, 9, 0.658));
+    border: 0;
+    outline: 0;
+    font-size: 10px;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    margin: 5px 0px 0px 0px;
+    cursor: pointer;
+
+}
+
+.downline button:hover {
+    background-color: rgb(49, 194, 194);
+}
+
+.downline button:active {
+    color: greenyellow;
+}
+.arrow{
+    color: rgb(253, 253, 253);
+    text-align: right;
+    font-weight:bolder;
+    font-size: 10px;
+    position: relative;
+    left: 20px;
+}
+.circle2 span {
+    display: inline-block;
+    background: linear-gradient(to bottom, rgb(49, 48, 48),
+            rgba(233, 224, 224, 0.658));
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+    top: 20px;
+
+}
+
+#w2 {
+    background: linear-gradient(to bottom, rgb(253, 253, 253),
+            rgba(255, 255, 255, 0.658));
+}
